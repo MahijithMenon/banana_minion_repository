@@ -13,30 +13,57 @@
         }
         
         h1{
-            margin-top: 25px;
+            margin-top: 1em;
         }
         nav{
-            height: 100px;
-            padding: auto;
+            margin: 0;
+            height: 10vh;
+            width: 100%;
+            position: absolute;
+            top: 0rem;
             background-color: rgb(255, 255, 130);
             color: black;
             text-align: center;
         }
         .txtareainput{
-            margin: 20px;           
-        }
-        .output{
             margin: 20px;
+            position: relative;           
+            top: 4rem;
+            left: 8rem;
+
+        }
+        #output{
+            position: relative; 
+            margin: 20px;
+            border: 2px solid black;
+            top: -5rem;
+            left: 8rem;
+            height: 38vh;
+            width: 67%;
         }
         .btn{
             height: 100px;
             background-color: rgb(255, 255, 112);
             width: 120px;
             margin: 20px;
+            position: relative;
+         top: -8rem;
+         left: 66rem;  
         }
+        .p{
+            position: absolute;
+           left: 11rem;
+           top: 16rem;
+}
+
         footer{
-            height: 100px;
+            height: 10vh;
+            width: 100%;
+            position: absolute;
+            left: 0rem;
+          bottom: 0rem;
             background-color: rgb(255, 255, 130);
+          
         }
     <!-- </style>
 </head>
@@ -46,6 +73,7 @@
     </nav>
     <textarea class="txtareainput" rows=10 cols=120 placeholder="Enter Your Text"></textarea><br>
     <button class="btn">Translate to Banana🍌</button>
+    <p class="p">Your Words in Minion language</p>
     <div id="output"></div>
     <footer><p>This will convert your text into minion language</p></footer>
     
