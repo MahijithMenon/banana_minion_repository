@@ -22,4 +22,4 @@ function clickHandler(){
         })   
         .catch(errorHandler)
 };
-btn.addEventListener("click",clickHandler())
+btn.addEventListener("click",clickHandler)
